@@ -1,14 +1,11 @@
-<<<<<<< HEAD
-background-color: lightblue;
-=======
-body{background-color:9ACD32;}
+body{background-color:#9acd32;}
 
-header{background-color:EEE8AA;
+header{background-color:#c71585;
        margin-top:10px;
 	   overflow:hidden;
 }
 
-footer{background-color:EEE8AA;
+footer{background-color:#c71585;
 	   text-align:center;
 	   font-variant:small-caps;
 	   padding-bottom:30px;
@@ -17,7 +14,7 @@ footer{background-color:EEE8AA;
 }
 
 h1 {text-align:center;
-	color:000000
+	color:#000000;
 	font-size: 3em;
 	font-weight:bold;
 	font-variant:small-caps;
@@ -31,11 +28,11 @@ a {text-decoration:none;}
 
 a:hover {text-decoration: underline;}
 
-.picture{border: sodid 1px black;
+.picture{border: solid 1px black;
 		background: white;
 		text-align: center;
 		width: 250px;
-		padding: 20px
+		padding: 20px;
 		margin-top: 10px;
 		margin-bottom: 20px;
 }
@@ -52,15 +49,15 @@ ul.favioritelist li {background-image: url('1.jpg');
 					 background-position: 0px center;
 					 padding-left: 25px;
 					 padding-top: 5px;
-					 padding-botten:5px;
-					 font-soze:1.25em;
+					 padding-bottom:5px;
+					 font-size:1.25em;
 }
 
 ol { margin:0px; }
 ol li { padding-top:5px; padding-bottom:5px; font-size:1.25em; }
 
 #wrap {
-	background-color:#C71585; 
+	background-color:#f5deb3; 
 	margin:0 auto; 
 	width:95%; 
 	text-align:left; 
@@ -91,7 +88,7 @@ ol li { padding-top:5px; padding-bottom:5px; font-size:1.25em; }
 
 
 #menubar { 
-	background-color: #FAF0E6; 
+	background-color: #faf0e6; 
 	width:100%;
 	overflow:hidden;
 	}
@@ -117,21 +114,21 @@ ul#navlist {
 
 		
 #navlist a:link, #navlist a:visited { 
-	color: #FF4500; 
-	background-color: FAF0E6; 
+	color: #ff4500; 
+	background-color: #faf0e6; 
 	text-decoration: none; 
 	}
 
 #navlist a:hover { 
-	color: #FF4500; 
-	background-color: #EEE8AA; 
+	color: #ff4500; 
+	background-color: #eee8aa; 
 	text-decoration: none; 
 	}
 		
 
 body#home  a#homenav, body#resume a#resumenav { 
 	color: black; 
-	background-color: blue; 
+	background-color: #f5deb3; 
 	text-decoration: none; 
 }
 
@@ -189,4 +186,4 @@ caption { text-align:left;}
 			margin-top: 30px;
 			margin-bottom: 25px;
 	
->>>>>>> CSS_formatting
+}
