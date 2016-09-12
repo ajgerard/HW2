@@ -5,7 +5,7 @@ header{background-color:#c71585;
 	   overflow:hidden;
 }
 
-footer{background-color:#f5deb3;
+footer{background-color:#c71585;
 	   text-align:center;
 	   font-variant:small-caps;
 	   padding-bottom:30px;
@@ -28,8 +28,6 @@ a {text-decoration:none;}
 
 a:hover {text-decoration: underline;}
 
-
-
 .picture{border: solid 1px black;
 		background: white;
 		text-align: center;
@@ -41,7 +39,7 @@ a:hover {text-decoration: underline;}
 
 .gallery {width: 250px;}
 
-ul.favioritelist {list-style-type: none;
+ul.favioritelist {list-style-type: solid circle;
 				  padding: 0px;
 				  margin: 10px;
 }
@@ -67,21 +65,21 @@ ol li { padding-top:5px; padding-bottom:5px; font-size:1.25em; }
 	}
 
 #left{
-	width:24%;
+	width:22%;
 	float:left;
 	overflow:hidden;
 	padding:10px;
 }
-
+	
 #right{
-	width:24%;
+	width:22%;
 	float:left;
 	overflow:hidden;
 	padding:10px;
 }
 
-#middle {
-	width:47%;
+#middle{
+	width:50%;
 	float:left;
 	overflow:hidden;
 	padding:10px;
@@ -189,3 +187,5 @@ caption { text-align:left;}
 			margin-bottom: 25px;
 	
 }
+
+
