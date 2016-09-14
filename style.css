@@ -5,20 +5,18 @@ header{background-color:#c71585;
 	   overflow:hidden;
 }
 
-footer{background-color:#c71585;
-	   text-align:center;
-	   font-variant:small-caps;
-	   padding-bottom:30px;
-	   padding-top:30px;
-	   font-weight:bold;
-}
-
 h1 {text-align:center;
 	color:#000000;
 	font-size: 3em;
 	font-weight:bold;
 	font-variant:small-caps;
 }
+
+h2{text-align: center;
+	color: #000000;
+	font-size: 1.7em;
+	font-weight:bold;
+	font-variant:small-caps;}
 
 p{margin-top:30px;
   font-size:1.25em;
@@ -39,52 +37,52 @@ a:hover {text-decoration: underline;}
 
 .gallery {width: 250px;}
 
-ul.favioritelist {list-style-type: solid circle;
+
+ul.favioritelist {list-style-position: inside; text-align:left;
 				  padding: 0px;
 				  margin: 10px;
+				  text-align: center;
 }
 
-ul.favioritelist li {background-image: url('1.jpg');
-					 background-repeat: no-repeat;
-					 background-position: 0px center;
-					 padding-left: 25px;
-					 padding-top: 5px;
-					 padding-bottom:5px;
-					 font-size:1.25em;
-}
 
 ol { margin:0px; }
 ol li { padding-top:5px; padding-bottom:5px; font-size:1.25em; }
 
 #wrap {
 	background-color:#f5deb3; 
-	margin:0 auto; 
+	margin: auto; 
 	width:95%; 
-	text-align:left; 
 	border: 2px solid black; 
 	}
 
 #left{
-	width:22%;
+	width:290px;
 	float:left;
 	overflow:hidden;
 	padding:10px;
 }
 	
 #right{
-	width:22%;
-	float:left;
+	width:290px;
+	float:right;
 	overflow:hidden;
 	padding:10px;
 }
 
 #middle{
-	width:50%;
+	width:939px;
 	float:left;
 	overflow:hidden;
 	padding:10px;
+	text-align: left;
 }
 
+#footer{background-color:#c71585;
+		width:98.7%;
+		float:center;
+		text-align: center;
+		overflow: hidden;
+		padding: 10px;}
 
 
 #menubar { 
@@ -132,14 +130,11 @@ body#home  a#homenav, body#resume a#resumenav {
 	text-decoration: none; 
 }
 
-
-
-
 #favioritelist {
 	width:90%; 
 	margin:0 auto; 
 	padding:20px; 
-	text-align:left; 
+	text-align:center; 
 }
 
 #resume_content{
